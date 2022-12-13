@@ -1,0 +1,36 @@
+.categorie-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5% 20%;
+  color: white;
+}
+.cat-card {
+  width: 240px;
+  height: 316px;
+  transition-duration: 0.3s;
+}
+.cat-card:hover {
+  transform: scale(0.95);
+}
+.cat-name {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #ffffff;
+  background: #3b3b3b;
+  padding: 20px;
+}
+.display-cat {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.picturediv{
+height: 240px;
+}
+.cat-image {
+  width: 100%;
+  height:100%;
+}

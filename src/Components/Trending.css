@@ -1,0 +1,78 @@
+.trending-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5% 20%;
+  color: white;
+}
+.heading h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 38px;
+}
+.heading p {
+  font-size: 22px;
+}
+.collection {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.collection-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  font-size: 22px;
+}
+.title2 {
+  font-size: 16px;
+}
+.main{
+  transition-duration: 0.3s;
+  width: 100%;
+}
+.box {
+  display: flex;
+  gap: 50px;
+}
+.secondary {
+  display: flex;
+  gap: 15px;
+  background-color: #2B2B2B  ;
+}
+
+.secondary img{
+  transition-duration: 0.3s;
+}
+
+.foot {
+  display: flex;
+  gap: 10px;
+}
+.image1 {
+  border-radius: 8%;
+}
+.image2,
+.image3,
+.image4 {
+  border-radius: 20%;
+}
+.image5 {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+
+.secondary img:hover {
+  transform: scale(.95);
+}
+
+.main:hover {
+  transform: scale(.95);
+}

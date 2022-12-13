@@ -1,0 +1,33 @@
+.work-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5% 20%;
+  color: white;
+}
+.work-sub {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  flex: start;
+}
+.work-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 330px;
+  height: 439px;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  padding: 10px 30px 30px;
+}
+.work-card p {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+}
+.work-card h5 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}

@@ -1,0 +1,13 @@
+.heading h3 {
+    margin: 0;
+    font-weight: 600;
+   font-size: 38px;
+  }
+  .heading p {
+    font-size: 22px;
+  }
+  .heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
